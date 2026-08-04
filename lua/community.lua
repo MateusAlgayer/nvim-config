@@ -14,7 +14,6 @@ return {
   { import = "astrocommunity.pack.sql" },
 
   -- NOTE: Remover eventualmente
-  { import = "astrocommunity.workflow.precognition-nvim" },
   { import = "astrocommunity.workflow.bad-practices-nvim" },
   { import = "astrocommunity.workflow.hardtime-nvim" },
 }
