@@ -12,7 +12,9 @@ return {
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
+
   -- NOTE: Remover eventualmente
   { import = "astrocommunity.workflow.bad-practices-nvim" },
   { import = "astrocommunity.workflow.hardtime-nvim" },
