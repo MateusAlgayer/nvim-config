@@ -15,8 +15,4 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
-
-  -- NOTE: Remover eventualmente
-  { import = "astrocommunity.workflow.bad-practices-nvim" },
-  { import = "astrocommunity.workflow.hardtime-nvim" },
 }
