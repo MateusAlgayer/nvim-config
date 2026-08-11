@@ -15,4 +15,6 @@ return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
+  { import = "astrocommunity.programming-language-support.kulala-nvim" },
+  { import = "astrocommunity.ai.sidekick-nvim" },
 }
