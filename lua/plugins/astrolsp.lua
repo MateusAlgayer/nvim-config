@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- AstroLSP allows you to customize the features in AstroNvim's LSP configuration engine
 -- Configuration documentation can be found with `:h astrolsp`
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
@@ -53,6 +51,20 @@ return {
 
       -- the key is the server that is being setup with `vim.lsp.config`
       -- rust_analyzer = false, -- setting a handler to false will disable the set up of that language server
+    },
+    -- Configuration of LSP file operation functionality
+    file_operations = {
+      -- the timeout when executing LSP client operations
+      timeout = 10000,
+      -- fully disable/enable file operation methods
+      operations = {
+        willRename = true,
+        didRename = true,
+        willCreate = true,
+        didCreate = true,
+        willDelete = true,
+        didDelete = true,
+      },
     },
     -- Configure buffer local auto commands to add when attaching a language server
     autocmds = {
