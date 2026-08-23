@@ -43,6 +43,19 @@ return {
     -- client specific configuration can also go in `lsp/` in your configuration root (see `:h lsp-config`)
     config = {
       -- ["*"] = { capabilities = {} }, -- modify default LSP client settings such as capabilities
+      jdtls = {
+        settings = {
+          java = {
+            format = {
+              enabled = true,
+              settings = { -- you can use your preferred format style
+                url = "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+                profile = "GoogleStyle",
+              },
+            },
+          },
+        },
+      },
     },
     -- customize how language servers are attached
     handlers = {

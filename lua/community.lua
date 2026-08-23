@@ -7,6 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
